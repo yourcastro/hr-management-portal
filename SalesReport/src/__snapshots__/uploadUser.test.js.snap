@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter snapshot renders 1`] = `
+<div>
+  <div
+    className="fileUploadContainer"
+  >
+    <div>
+      <input
+        onChange={[Function]}
+        type="file"
+      />
+      <button
+        onClick={[Function]}
+      >
+        Upload
+      </button>
+    </div>
+    <div
+      className="uploadMobile"
+    >
+      <br />
+      <h4>
+        Please select file before pressing the upload button
+      </h4>
+    </div>
+  </div>
+  <div />
+  <div
+    className="Toastify"
+  />
+</div>
+`;
+
+exports[`Sales Report Upload snapshot renders 1`] = `
+<div>
+  <div
+    className="fileUploadContainer"
+  >
+    <div>
+      <input
+        onChange={[Function]}
+        type="file"
+      />
+      <button
+        onClick={[Function]}
+      >
+        Upload
+      </button>
+    </div>
+    <div
+      className="uploadMobile"
+    >
+      <br />
+      <h4>
+        Please select file before pressing the upload button
+      </h4>
+    </div>
+  </div>
+  <div />
+  <div
+    className="Toastify"
+  />
+</div>
+`;

@@ -1,0 +1,289 @@
+body{
+  overflow: scroll;
+}
+
+.desktop-container{
+  display: block;
+}
+
+.mobile-container{
+  display: none;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  float: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.headerMenuContainer{
+  position: fixed;
+  width: 100%;
+  top:0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(0, 17, 58);
+  opacity: 0.8;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #04AA6D;
+  color: black;
+}
+
+.active {
+  background-color: #04AA6D;
+  font-weight: bold;
+}
+
+.floatRight{
+  float: right;
+}
+
+.fileUploadContainer{
+  width: 50%;
+  margin: 5% 25% 0;
+}
+
+.bannerImg{
+  width: 100%;
+  height: 100%;
+}
+
+.employeeDashboardConatiner{
+  margin-top:5%;
+  width: 100%;
+}
+
+.card{
+  position:inherit !important;
+}
+
+.table-responsive{
+  display: table !important;
+}
+
+.fileUploadContainer input{
+  color: black;
+}
+
+.fileUploadContainer button{
+  color: black;
+}
+
+.h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, .h1, p {
+  color: black !important;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.modalForm{
+  width: 70%;
+  float: left;
+}
+
+.modalForm > div{
+  clear: left;
+  float: left;
+  width: 100%;
+  padding-bottom: 10%;
+}
+
+.modalHeader{
+  width: 100%;
+  padding-bottom: 8%;
+  float: left;
+  clear: left;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btnSave{
+  float: left;
+  background-color: rgb(0, 17, 58);
+  opacity: 0.8;
+  color: white;
+  border: none;
+}
+
+.btnDelete{
+  float: left;
+  background-color: rgb(0, 17, 58);
+  opacity: 0.8;
+  color: white;
+  border: none;
+  margin-left: 6%;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .bannerImg{
+    width: 100%;
+    height: 100%;
+  }
+
+  .desktop-container{
+    display: none;
+  }
+  
+  .mobile-container{
+    display: block;
+  }
+
+  .mobile-container {
+    margin: auto;
+    background-color: #555;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .fileUploadContainer{
+    width: 100%;
+    margin: 0;
+  }
+
+  .fileUploadContainer input{
+    clear: left;
+    float: left;
+    margin: 10% 0 0 10%;
+  }
+
+  .fileUploadContainer button{
+    clear: left;
+    float: left;
+    width: 24%;
+    margin: 5% 0 0 10%;
+  }
+
+  .uploadMobile{
+    clear: left;
+    float: left;
+  }
+
+  .uploadMobile h4{
+   text-align: center;
+  }
+
+  .uploadMobileContent{
+    float: left;
+    clear: left;
+    margin: 4% 0 0 18%;
+  }
+
+
+  .react-responsive-modal-root {
+    position: fixed;
+    top: 0;
+    bottom: 50% !important;
+    left: 0;
+    right: 38% !important;
+    z-index: 1000;
+  }
+
+
+  
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bgColor{
+  color: #555;
+}
+
+.container, .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+  margin-left: 1% !important;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.card, .card-header, .card-body{
+  width: 100% !important;
+}
+
+.table{
+  table-layout: inherit !important;
+}
